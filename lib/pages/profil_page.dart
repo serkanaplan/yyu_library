@@ -155,7 +155,7 @@ class _ProfilPageState extends State<ProfilPage> {
                                         secondChild: Row(
                                           children: [
                                             Text(
-                                              snapshot.data.
+                                              "snapshot.data.",
                                               style: TextStyle(
                                                 color: Colors.white,
                                                 fontSize: 15.7,

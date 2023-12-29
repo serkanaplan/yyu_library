@@ -33,18 +33,17 @@ class MyApp extends StatelessWidget {
           titleLarge: TextStyle(color: Colors.white),
           titleSmall: TextStyle(color: Colors.white),
           titleMedium: TextStyle(color: Colors.white),
-          bodyLarge: TextStyle(color: Colors.white),//değişecek
+          bodyLarge: TextStyle(color: Colors.white), //değişecek
           bodyMedium: TextStyle(color: Colors.white),
           bodySmall: TextStyle(color: Colors.white),
         ),
         fontFamily: "Baumans",
         useMaterial3: true,
       ),
-      home: ProfilPage(),
+      home: LoginPage(),
     );
   }
 }
-
 
 class MyForm extends StatefulWidget {
   @override
@@ -133,7 +132,8 @@ class _MyFormState extends State<MyForm> {
               TextFormField(
                 cursorColor: Colors.red,
                 controller: _idController,
-                decoration: InputDecoration(labelText: 'Kitap Id',
+                decoration: InputDecoration(
+                  labelText: 'Kitap Id',
                 ),
                 validator: (value) {
                   if (value!.isEmpty) {
