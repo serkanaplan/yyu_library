@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "240962614855",
+    "project_id": "yyu-library",
+    "storage_bucket": "yyu-library.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240962614855:android:40b109c103eff61651e362",
+        "android_client_info": {
+          "package_name": "com.yyu.library.yyu_library"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCncuqqmWbWDSo7fHU3RKKM7OUmnUzf0TE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
